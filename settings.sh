@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 source ./moonplow/base.sh
 
 DUMMY_SETTINGS=`cfg_get dummy_settings`

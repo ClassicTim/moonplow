@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 source ./moonplow/base.sh
 
 TEST_ENGINE=`cfg_get test_engine`
