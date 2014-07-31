@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 source ./moonplow/base.sh
 
 echo_ok ">>>> Saving commit info..."
