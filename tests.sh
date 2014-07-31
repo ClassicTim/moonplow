@@ -3,6 +3,7 @@ source ./moonplow/base.sh
 
 TEST_ENGINE=`cfg_get test_engine`
 VIRTUALENV=`cfg_get virtualenv`
+TEST_ARGS=`cfg_get test_args`
 
 case $TEST_ENGINE in
 django)
