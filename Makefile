@@ -47,7 +47,7 @@ define commit-info
 endef
 
 define help
-	@ sh -c "source ./base.sh && echo_ok 'List of available commands:'"
+	@ sh -c "source ./moonplow/base.sh && echo_ok 'List of available commands:'"
 	@make -qp | awk -F ':' '/^[a-zA-Z0-9][^$$#\/\t=]*:([^=]|$$)/ {split($$1,A,/ /); for(i in A) printf "  %s\n", A[i]}'| grep -v Makefile | sort
 endef
 
