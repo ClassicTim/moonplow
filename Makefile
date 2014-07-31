@@ -1,5 +1,4 @@
 .DEFAULT_GOAL := init
-SHELL := /bin/bash
 
 
 #####################

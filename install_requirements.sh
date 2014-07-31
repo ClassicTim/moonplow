@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 source ./moonplow/base.sh
 
 export PIP_CACHE=".pip-cache"

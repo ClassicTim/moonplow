@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 source ./moonplow/base.sh
 
 echo_ok ">>>> Installing git hooks"

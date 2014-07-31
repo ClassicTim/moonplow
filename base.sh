@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 REVERSE=`tput rev`
 CYAN=`tput bold; tput setaf 6`
