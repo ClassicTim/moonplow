@@ -66,7 +66,7 @@ venv:
 requirements: venv
 	$(requirements)
 
-hooks:
+install-hooks:
 	$(hooks)
 
 upstream:
@@ -87,7 +87,7 @@ test: init-essential
 commit-info:
 	$(commit-info)
 
-init: init-essential hooks upstream
+init: init-essential install-hooks upstream
 init-essential: requirements settings
 
 help:
